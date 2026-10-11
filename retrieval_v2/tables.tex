@@ -1,0 +1,15 @@
+% Retrieval (masked-diagnosis, graded relevance), mean $\pm$ std over seeds
+\begin{tabular}{llccccc}
+\toprule
+Clients & Retriever & P@10 & nDCG@10 & Cov@10 & MRR & ms/query \\
+\midrule
+\multirow{7}{*}{10} & Random KG context & 0.017 $\pm$ 0.001 & 0.007 $\pm$ 0.001 & 0.036 $\pm$ 0.005 & 0.058 $\pm$ 0.003 & 4.05 $\pm$ 0.42 \\
+ & Server-side RAG & 0.079 $\pm$ 0.001 & 0.040 $\pm$ 0.001 & 0.157 $\pm$ 0.006 & 0.256 $\pm$ 0.010 & 0.17 $\pm$ 0.03 \\
+ & Client-side RAG & 0.103 $\pm$ 0.001 & 0.045 $\pm$ 0.001 & 0.096 $\pm$ 0.003 & 0.133 $\pm$ 0.004 & 7.80 $\pm$ 0.98 \\
+ & Client-side RAG + KGC & 0.104 $\pm$ 0.001 & 0.045 $\pm$ 0.001 & 0.098 $\pm$ 0.004 & 0.134 $\pm$ 0.004 & 17.06 $\pm$ 1.13 \\
+ & Server-side + patient context$^\dagger$ & 0.099 $\pm$ 0.001 & 0.043 $\pm$ 0.001 & 0.093 $\pm$ 0.003 & 0.130 $\pm$ 0.003 & 7.83 $\pm$ 1.02 \\
+ & Client-side, own KG only & 0.038 $\pm$ 0.003 & 0.019 $\pm$ 0.001 & 0.037 $\pm$ 0.002 & 0.082 $\pm$ 0.004 & 4.71 $\pm$ 0.32 \\
+ & Federated query processing (FQP) & 0.105 $\pm$ 0.001 & 0.046 $\pm$ 0.000 & 0.099 $\pm$ 0.003 & 0.135 $\pm$ 0.002 & 45.76 $\pm$ 2.99 \\
+\bottomrule
+\end{tabular}
+% Upper bound: a relevant concept was in the 1-hop candidate pool for 82.5% of queries.

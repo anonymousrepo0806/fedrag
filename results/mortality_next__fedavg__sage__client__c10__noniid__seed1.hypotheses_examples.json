@@ -1,0 +1,2692 @@
+[
+ {
+  "client": 0,
+  "risk": 0.7776,
+  "hypotheses": [
+   {
+    "drug": "C0004259",
+    "atc": "A03BA01",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 5,
+    "path": [
+     "C0036690",
+     "C0001636",
+     "C0004096",
+     "C0004259"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Atropine",
+    "path_names": [
+     "Septicemia",
+     "Epinephrine hydrochloride",
+     "Asthma",
+     "Atropine"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0022245",
+    "atc": "C01CA02",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 4,
+    "path": [
+     "C0036690",
+     "C0001636",
+     "C0004096",
+     "C0022245"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Isoproterenol",
+    "path_names": [
+     "Septicemia",
+     "Epinephrine hydrochloride",
+     "Asthma",
+     "Isoproterenol"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0041030",
+    "atc": "S01ED04",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 4,
+    "path": [
+     "C0036690",
+     "C0001636",
+     "C0017601",
+     "C0041030"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Metipranolol",
+    "path_names": [
+     "Septicemia",
+     "Epinephrine hydrochloride",
+     "Glaucoma",
+     "Metipranolol"
+    ],
+    "interaction_names": []
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0037473",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Sodium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0032821",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Potassium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0021641",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Insulin",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 0,
+  "risk": 0.7564,
+  "hypotheses": [
+   {
+    "drug": "C0006949",
+    "atc": "N03AF01",
+    "score": 1.0,
+    "interactions": [
+     "C0935942",
+     "C0059562",
+     "C0014806",
+     "C0055856"
+    ],
+    "n_paths": 10,
+    "path": [
+     "C0020433",
+     "C0282303",
+     "C0014544",
+     "C0006949"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Carbamazepine",
+    "path_names": [
+     "Hyperbilirubinemia",
+     "Phenobarbital sodium",
+     "Epilepsy",
+     "Carbamazepine"
+    ],
+    "interaction_names": [
+     "Caspofungin acetate",
+     "Erythromycin lactobionate",
+     "Erythromycin",
+     "Clarithromycin"
+    ]
+   },
+   {
+    "drug": "C0012702",
+    "atc": "C01BA03",
+    "score": 1.0,
+    "interactions": [
+     "C0059562",
+     "C0014806",
+     "C0055856"
+    ],
+    "n_paths": 9,
+    "path": [
+     "C0017181",
+     "C0042413",
+     "C0042514",
+     "C0012702"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Disopyramide",
+    "path_names": [
+     "Gastrointestinal hemorrhage",
+     "Vasopressins",
+     "Ventricular tachyarrhythmia",
+     "Disopyramide"
+    ],
+    "interaction_names": [
+     "Erythromycin lactobionate",
+     "Erythromycin",
+     "Clarithromycin"
+    ]
+   },
+   {
+    "drug": "C0031444",
+    "atc": "B01AA04",
+    "score": 1.0,
+    "interactions": [
+     "C0059562",
+     "C0004057",
+     "C0008809",
+     "C0014806",
+     "C0016277"
+    ],
+    "n_paths": 5,
+    "path": [
+     "C0040034",
+     "C0083031",
+     "C0004238",
+     "C0031444"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_cause",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Phenprocoumon",
+    "path_names": [
+     "Thrombocytopenic disorder",
+     "Interleukin-11",
+     "Atrial fibrillation",
+     "Phenprocoumon"
+    ],
+    "interaction_names": [
+     "Erythromycin lactobionate",
+     "Aspirin",
+     "Ciprofloxacin",
+     "Erythromycin",
+     "Fluconazole"
+    ]
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C3489575",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Senna",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0005632",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Bisacodyl",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0700548",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Metoprolol tartrate",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 0,
+  "risk": 0.7266,
+  "hypotheses": [
+   {
+    "drug": "C0006949",
+    "atc": "N03AF01",
+    "score": 1.0,
+    "interactions": [
+     "C0010592",
+     "C0537894"
+    ],
+    "n_paths": 5,
+    "path": [
+     "C0020433",
+     "C0282303",
+     "C0014544",
+     "C0006949"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Carbamazepine",
+    "path_names": [
+     "Hyperbilirubinemia",
+     "Phenobarbital sodium",
+     "Epilepsy",
+     "Carbamazepine"
+    ],
+    "interaction_names": [
+     "Cyclosporine",
+     "Caspofungin"
+    ]
+   },
+   {
+    "drug": "C0015046",
+    "atc": "N03AB01",
+    "score": 1.0,
+    "interactions": [
+     "C0010592",
+     "C0016277",
+     "C0537894"
+    ],
+    "n_paths": 5,
+    "path": [
+     "C0020433",
+     "C0282303",
+     "C0014544",
+     "C0015046"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Ethotoin",
+    "path_names": [
+     "Hyperbilirubinemia",
+     "Phenobarbital sodium",
+     "Epilepsy",
+     "Ethotoin"
+    ],
+    "interaction_names": [
+     "Cyclosporine",
+     "Fluconazole",
+     "Caspofungin"
+    ]
+   },
+   {
+    "drug": "C0031507",
+    "atc": "N03AB02",
+    "score": 1.0,
+    "interactions": [
+     "C0010592",
+     "C0016277",
+     "C0537894"
+    ],
+    "n_paths": 5,
+    "path": [
+     "C0020433",
+     "C0282303",
+     "C0014544",
+     "C0031507"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Phenytoin",
+    "path_names": [
+     "Hyperbilirubinemia",
+     "Phenobarbital sodium",
+     "Epilepsy",
+     "Phenytoin"
+    ],
+    "interaction_names": [
+     "Cyclosporine",
+     "Fluconazole",
+     "Caspofungin"
+    ]
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0021641",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Insulin",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0004057",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Aspirin",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0005632",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Bisacodyl",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 0,
+  "risk": 0.7134,
+  "hypotheses": [
+   {
+    "drug": "C0031444",
+    "atc": "B01AA04",
+    "score": 1.0,
+    "interactions": [
+     "C0008809",
+     "C0021246",
+     "C0000970",
+     "C0079691"
+    ],
+    "n_paths": 6,
+    "path": [
+     "C0040034",
+     "C0083031",
+     "C0004238",
+     "C0031444"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_cause",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Phenprocoumon",
+    "path_names": [
+     "Thrombocytopenic disorder",
+     "Interleukin-11",
+     "Atrial fibrillation",
+     "Phenprocoumon"
+    ],
+    "interaction_names": [
+     "Ciprofloxacin",
+     "Indomethacin",
+     "Acetaminophen",
+     "Levothyroxine sodium"
+    ]
+   },
+   {
+    "drug": "C0008168",
+    "atc": "S01AA01",
+    "score": 1.0,
+    "interactions": [
+     "C0043031"
+    ],
+    "n_paths": 4,
+    "path": [
+     "C0032227",
+     "C0058731",
+     "C0035585",
+     "C0008168"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Chloramphenicol",
+    "path_names": [
+     "Pleural effusion",
+     "Doxycycline hyclate",
+     "Disease caused by rickettsiae",
+     "Chloramphenicol"
+    ],
+    "interaction_names": [
+     "Warfarin"
+    ]
+   },
+   {
+    "drug": "C0033209",
+    "atc": "M04AB01",
+    "score": 1.0,
+    "interactions": [
+     "C0008809",
+     "C0007561",
+     "C0007716"
+    ],
+    "n_paths": 4,
+    "path": [
+     "C0018099",
+     "C0033209"
+    ],
+    "relations": [
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Probenecid",
+    "path_names": [
+     "Gout",
+     "Probenecid"
+    ],
+    "interaction_names": [
+     "Ciprofloxacin",
+     "Ceftriaxone",
+     "Cephalexin"
+    ]
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0032821",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Potassium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0021641",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Insulin",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0024467",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Magnesium",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 0,
+  "risk": 0.7095,
+  "hypotheses": [
+   {
+    "drug": "C0006949",
+    "atc": "N03AF01",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 3,
+    "path": [
+     "C0020433",
+     "C0282303",
+     "C0014544",
+     "C0006949"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Carbamazepine",
+    "path_names": [
+     "Hyperbilirubinemia",
+     "Phenobarbital sodium",
+     "Epilepsy",
+     "Carbamazepine"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0009011",
+    "atc": "N03AE01",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 3,
+    "path": [
+     "C0020433",
+     "C0282303",
+     "C0014544",
+     "C0009011"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Clonazepam",
+    "path_names": [
+     "Hyperbilirubinemia",
+     "Phenobarbital sodium",
+     "Epilepsy",
+     "Clonazepam"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0015046",
+    "atc": "N03AB01",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 3,
+    "path": [
+     "C0020433",
+     "C0282303",
+     "C0014544",
+     "C0015046"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Ethotoin",
+    "path_names": [
+     "Hyperbilirubinemia",
+     "Phenobarbital sodium",
+     "Epilepsy",
+     "Ethotoin"
+    ],
+    "interaction_names": []
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0032821",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Potassium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0021641",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Insulin",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0024467",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Magnesium",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 1,
+  "risk": 0.7431,
+  "hypotheses": [
+   {
+    "drug": "C0010592",
+    "atc": "S01XA18",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 2,
+    "path": [
+     "C0018802",
+     "C0014027",
+     "C0003873",
+     "C0010592"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Cyclosporine",
+    "path_names": [
+     "Congestive heart failure",
+     "Enalaprilat",
+     "Rheumatoid arthritis",
+     "Cyclosporine"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0014912",
+    "atc": "G03CA03",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 2,
+    "path": [
+     "C0001122",
+     "C3714696",
+     "C0029456",
+     "C0014912"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Estradiol",
+    "path_names": [
+     "Acidosis",
+     "Ergocalciferol Drug Product",
+     "Osteoporosis",
+     "Estradiol"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0015011",
+    "atc": "L02AA03",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 2,
+    "path": [
+     "C0001122",
+     "C3714696",
+     "C0029456",
+     "C0015011"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Ethinyl estradiol-containing product",
+    "path_names": [
+     "Acidosis",
+     "Ergocalciferol Drug Product",
+     "Osteoporosis",
+     "Ethinyl estradiol-containing product"
+    ],
+    "interaction_names": []
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0037473",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Sodium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0032821",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Potassium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0000970",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Acetaminophen",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 1,
+  "risk": 0.7377,
+  "hypotheses": [
+   {
+    "drug": "C0034414",
+    "atc": "C01BA01",
+    "score": 1.0,
+    "interactions": [
+     "C0002598"
+    ],
+    "n_paths": 4,
+    "path": [
+     "C0040034",
+     "C0083031",
+     "C0004238",
+     "C0034414"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_cause",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Quinidine",
+    "path_names": [
+     "Thrombocytopenic disorder",
+     "Interleukin-11",
+     "Atrial fibrillation",
+     "Quinidine"
+    ],
+    "interaction_names": [
+     "Amiodarone"
+    ]
+   },
+   {
+    "drug": "C0041030",
+    "atc": "S01ED04",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 4,
+    "path": [
+     "C0036983",
+     "C0001636",
+     "C0017601",
+     "C0041030"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Metipranolol",
+    "path_names": [
+     "Septic shock",
+     "Epinephrine hydrochloride",
+     "Glaucoma",
+     "Metipranolol"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0298130",
+    "atc": "R03DC03",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 4,
+    "path": [
+     "C0036983",
+     "C0001636",
+     "C0004096",
+     "C0298130"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Montelukast-containing product",
+    "path_names": [
+     "Septic shock",
+     "Epinephrine hydrochloride",
+     "Asthma",
+     "Montelukast-containing product"
+    ],
+    "interaction_names": []
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0001927",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Albuterol",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0243237",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Docusate sodium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0004057",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Aspirin",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 1,
+  "risk": 0.7354,
+  "hypotheses": [
+   {
+    "drug": "C0043031",
+    "atc": "B01AA03",
+    "score": 1.0,
+    "interactions": [
+     "C0025872",
+     "C0008809",
+     "C0025942",
+     "C0014806",
+     "C0016277"
+    ],
+    "n_paths": 9,
+    "path": [
+     "C0004238",
+     "C0043031"
+    ],
+    "relations": [
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Warfarin",
+    "path_names": [
+     "Atrial fibrillation",
+     "Warfarin"
+    ],
+    "interaction_names": [
+     "Metronidazole",
+     "Ciprofloxacin",
+     "Miconazole",
+     "Erythromycin",
+     "Fluconazole"
+    ]
+   },
+   {
+    "drug": "C0031444",
+    "atc": "B01AA04",
+    "score": 1.0,
+    "interactions": [
+     "C0008809",
+     "C0014806",
+     "C0016277",
+     "C0000970",
+     "C0079691"
+    ],
+    "n_paths": 8,
+    "path": [
+     "C0004238",
+     "C0031444"
+    ],
+    "relations": [
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Phenprocoumon",
+    "path_names": [
+     "Atrial fibrillation",
+     "Phenprocoumon"
+    ],
+    "interaction_names": [
+     "Ciprofloxacin",
+     "Erythromycin",
+     "Fluconazole",
+     "Acetaminophen",
+     "Levothyroxine sodium"
+    ]
+   },
+   {
+    "drug": "C0010592",
+    "atc": "S01XA18",
+    "score": 1.0,
+    "interactions": [
+     "C0012373",
+     "C0014806",
+     "C0016277"
+    ],
+    "n_paths": 7,
+    "path": [
+     "C0036690",
+     "C0001636",
+     "C0004096",
+     "C0010592"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Cyclosporine",
+    "path_names": [
+     "Septicemia",
+     "Epinephrine hydrochloride",
+     "Asthma",
+     "Cyclosporine"
+    ],
+    "interaction_names": [
+     "Diltiazem",
+     "Erythromycin",
+     "Fluconazole"
+    ]
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0004057",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Aspirin",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0061851",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Ondansetron",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0700548",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Metoprolol tartrate",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 1,
+  "risk": 0.7218,
+  "hypotheses": [
+   {
+    "drug": "C1831905",
+    "atc": "B02BX05",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 6,
+    "path": [
+     "C1321898",
+     "C0042413",
+     "C0019080",
+     "C1831905"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Eltrombopag-containing product",
+    "path_names": [
+     "Blood in stool",
+     "Vasopressins",
+     "Hemorrhage",
+     "Eltrombopag-containing product"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0010592",
+    "atc": "S01XA18",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 5,
+    "path": [
+     "C0018802",
+     "C0014027",
+     "C0003873",
+     "C0010592"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Cyclosporine",
+    "path_names": [
+     "Congestive heart failure",
+     "Enalaprilat",
+     "Rheumatoid arthritis",
+     "Cyclosporine"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0041030",
+    "atc": "S01ED04",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 5,
+    "path": [
+     "C0036690",
+     "C0001636",
+     "C0017601",
+     "C0041030"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Metipranolol",
+    "path_names": [
+     "Septicemia",
+     "Epinephrine hydrochloride",
+     "Glaucoma",
+     "Metipranolol"
+    ],
+    "interaction_names": []
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0037473",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Sodium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0032821",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Potassium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0000970",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Acetaminophen",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 1,
+  "risk": 0.7159,
+  "hypotheses": [
+   {
+    "drug": "C0002680",
+    "atc": "S01AA19",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 2,
+    "path": [
+     "C0032227",
+     "C0058731",
+     "C0037199",
+     "C0002680"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Ampicillin",
+    "path_names": [
+     "Pleural effusion",
+     "Doxycycline hyclate",
+     "Sinusitis",
+     "Ampicillin"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0008168",
+    "atc": "S01AA01",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 2,
+    "path": [
+     "C0032227",
+     "C0058731",
+     "C0035585",
+     "C0008168"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Chloramphenicol",
+    "path_names": [
+     "Pleural effusion",
+     "Doxycycline hyclate",
+     "Disease caused by rickettsiae",
+     "Chloramphenicol"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0010592",
+    "atc": "S01XA18",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 2,
+    "path": [
+     "C0036690",
+     "C0001636",
+     "C0004096",
+     "C0010592"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Cyclosporine",
+    "path_names": [
+     "Septicemia",
+     "Epinephrine hydrochloride",
+     "Asthma",
+     "Cyclosporine"
+    ],
+    "interaction_names": []
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0037473",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Sodium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0032821",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Potassium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0000970",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Acetaminophen",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 2,
+  "risk": 0.7311,
+  "hypotheses": [
+   {
+    "drug": "C0031444",
+    "atc": "B01AA04",
+    "score": 1.0,
+    "interactions": [
+     "C0002144",
+     "C0000970"
+    ],
+    "n_paths": 5,
+    "path": [
+     "C0836924",
+     "C0771907",
+     "C0040053",
+     "C0031444"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Phenprocoumon",
+    "path_names": [
+     "Thrombocytosis",
+     "Anagrelide hydrochloride",
+     "Thrombosis",
+     "Phenprocoumon"
+    ],
+    "interaction_names": [
+     "Allopurinol",
+     "Acetaminophen"
+    ]
+   },
+   {
+    "drug": "C0043031",
+    "atc": "B01AA03",
+    "score": 1.0,
+    "interactions": [
+     "C0002144",
+     "C0025872",
+     "C0000970"
+    ],
+    "n_paths": 5,
+    "path": [
+     "C0836924",
+     "C0771907",
+     "C0040053",
+     "C0043031"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Warfarin",
+    "path_names": [
+     "Thrombocytosis",
+     "Anagrelide hydrochloride",
+     "Thrombosis",
+     "Warfarin"
+    ],
+    "interaction_names": [
+     "Allopurinol",
+     "Metronidazole",
+     "Acetaminophen"
+    ]
+   },
+   {
+    "drug": "C0005640",
+    "atc": "B01AA01",
+    "score": 1.0,
+    "interactions": [
+     "C0002144",
+     "C0000970"
+    ],
+    "n_paths": 3,
+    "path": [
+     "C0836924",
+     "C0771907",
+     "C0040053",
+     "C0005640"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Dicumarol",
+    "path_names": [
+     "Thrombocytosis",
+     "Anagrelide hydrochloride",
+     "Thrombosis",
+     "Dicumarol"
+    ],
+    "interaction_names": [
+     "Allopurinol",
+     "Acetaminophen"
+    ]
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0004057",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Aspirin",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0006675",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Calcium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0001927",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Albuterol",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 2,
+  "risk": 0.7268,
+  "hypotheses": [
+   {
+    "drug": "C0010592",
+    "atc": "S01XA18",
+    "score": 1.0,
+    "interactions": [
+     "C0074554",
+     "C0031507"
+    ],
+    "n_paths": 5,
+    "path": [
+     "C0036690",
+     "C0001636",
+     "C0004096",
+     "C0010592"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Cyclosporine",
+    "path_names": [
+     "Septicemia",
+     "Epinephrine hydrochloride",
+     "Asthma",
+     "Cyclosporine"
+    ],
+    "interaction_names": [
+     "Simvastatin",
+     "Phenytoin"
+    ]
+   },
+   {
+    "drug": "C0038742",
+    "atc": "M04AB02",
+    "score": 1.0,
+    "interactions": [
+     "C0000970"
+    ],
+    "n_paths": 5,
+    "path": [
+     "C0006114",
+     "C0011779",
+     "C0003868",
+     "C0038742"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Sulfinpyrazone",
+    "path_names": [
+     "Cerebral edema",
+     "Dexamethasone isonicotinate",
+     "Gouty arthropathy",
+     "Sulfinpyrazone"
+    ],
+    "interaction_names": [
+     "Acetaminophen"
+    ]
+   },
+   {
+    "drug": "C0031923",
+    "atc": "S01EB01",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 4,
+    "path": [
+     "C0036690",
+     "C0001636",
+     "C0017601",
+     "C0031923"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Pilocarpine",
+    "path_names": [
+     "Septicemia",
+     "Epinephrine hydrochloride",
+     "Glaucoma",
+     "Pilocarpine"
+    ],
+    "interaction_names": []
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0037473",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Sodium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0006675",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Calcium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0016860",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Furosemide",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 2,
+  "risk": 0.7213,
+  "hypotheses": [
+   {
+    "drug": "C0004475",
+    "atc": "L01BC07",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 1,
+    "path": [
+     "C0002871",
+     "C0004475"
+    ],
+    "relations": [
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Azacitidine",
+    "path_names": [
+     "Anemia",
+     "Azacitidine"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0011145",
+    "atc": "V03AC01",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 1,
+    "path": [
+     "C0002871",
+     "C0011145"
+    ],
+    "relations": [
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Deferoxamine",
+    "path_names": [
+     "Anemia",
+     "Deferoxamine"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0014822",
+    "atc": "B03XA01",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 1,
+    "path": [
+     "C0002871",
+     "C0014822"
+    ],
+    "relations": [
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Erythropoietin",
+    "path_names": [
+     "Anemia",
+     "Erythropoietin"
+    ],
+    "interaction_names": []
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0037473",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Sodium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0032821",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Potassium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0000970",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Acetaminophen",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 2,
+  "risk": 0.7209,
+  "hypotheses": [
+   {
+    "drug": "C0004057",
+    "atc": "B01AC06",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 2,
+    "path": [
+     "C0018802",
+     "C0014027",
+     "C0003873",
+     "C0004057"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Aspirin",
+    "path_names": [
+     "Congestive heart failure",
+     "Enalaprilat",
+     "Rheumatoid arthritis",
+     "Aspirin"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0004147",
+    "atc": "C07AB03",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 2,
+    "path": [
+     "C0018802",
+     "C0004147"
+    ],
+    "relations": [
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Atenolol",
+    "path_names": [
+     "Congestive heart failure",
+     "Atenolol"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0006938",
+    "atc": "C09AA01",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 2,
+    "path": [
+     "C0018802",
+     "C0006938"
+    ],
+    "relations": [
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Captopril",
+    "path_names": [
+     "Congestive heart failure",
+     "Captopril"
+    ],
+    "interaction_names": []
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0037473",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Sodium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0032821",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Potassium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0000970",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Acetaminophen",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 2,
+  "risk": 0.7191,
+  "hypotheses": [
+   {
+    "drug": "C0022245",
+    "atc": "C01CA02",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 9,
+    "path": [
+     "C0017181",
+     "C0042413",
+     "C0042510",
+     "C0022245"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Isoproterenol",
+    "path_names": [
+     "Gastrointestinal hemorrhage",
+     "Vasopressins",
+     "Ventricular fibrillation",
+     "Isoproterenol"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0012702",
+    "atc": "C01BA03",
+    "score": 1.0,
+    "interactions": [
+     "C0014806"
+    ],
+    "n_paths": 8,
+    "path": [
+     "C0017181",
+     "C0042413",
+     "C0042514",
+     "C0012702"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Disopyramide",
+    "path_names": [
+     "Gastrointestinal hemorrhage",
+     "Vasopressins",
+     "Ventricular tachyarrhythmia",
+     "Disopyramide"
+    ],
+    "interaction_names": [
+     "Erythromycin"
+    ]
+   },
+   {
+    "drug": "C0024480",
+    "atc": "A06AD04",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 8,
+    "path": [
+     "C0017181",
+     "C0042413",
+     "C0042510",
+     "C0024480"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Magnesium sulfate-containing product",
+    "path_names": [
+     "Gastrointestinal hemorrhage",
+     "Vasopressins",
+     "Ventricular fibrillation",
+     "Magnesium sulfate-containing product"
+    ],
+    "interaction_names": []
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0001927",
+    "atc": "R03CC02",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 3,
+    "path": [
+     "C0036690",
+     "C0001636",
+     "C0004096",
+     "C0001927"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Albuterol",
+    "path_names": [
+     "Septicemia",
+     "Epinephrine hydrochloride",
+     "Asthma",
+     "Albuterol"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0700548",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Metoprolol tartrate",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0061851",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Ondansetron",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 3,
+  "risk": 0.7425,
+  "hypotheses": [
+   {
+    "drug": "C0023870",
+    "atc": "N05AN01",
+    "score": 1.0,
+    "interactions": [
+     "C0210630"
+    ],
+    "n_paths": 3,
+    "path": [
+     "C0015967",
+     "C0023870"
+    ],
+    "relations": [
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Lithium",
+    "path_names": [
+     "Fever",
+     "Lithium"
+    ],
+    "interaction_names": [
+     "Filgrastim"
+    ]
+   },
+   {
+    "drug": "C0052762",
+    "atc": "R01AC03",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 3,
+    "path": [
+     "C0036690",
+     "C0001636",
+     "C0004096",
+     "C0052762"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Azelastine-containing product",
+    "path_names": [
+     "Septicemia",
+     "Epinephrine hydrochloride",
+     "Asthma",
+     "Azelastine-containing product"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0065093",
+    "atc": "D11AX04",
+    "score": 1.0,
+    "interactions": [
+     "C0210630"
+    ],
+    "n_paths": 3,
+    "path": [
+     "C0015967",
+     "C0065093"
+    ],
+    "relations": [
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Lithium succinate-containing product",
+    "path_names": [
+     "Fever",
+     "Lithium succinate-containing product"
+    ],
+    "interaction_names": [
+     "Filgrastim"
+    ]
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0006675",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Calcium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0061851",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Ondansetron",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0005632",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Bisacodyl",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 3,
+  "risk": 0.7374,
+  "hypotheses": [
+   {
+    "drug": "C0012582",
+    "atc": "B01AC07",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 3,
+    "path": [
+     "C0836924",
+     "C0771907",
+     "C0040053",
+     "C0012582"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Dipyridamole",
+    "path_names": [
+     "Thrombocytosis",
+     "Anagrelide hydrochloride",
+     "Thrombosis",
+     "Dipyridamole"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0031444",
+    "atc": "B01AA04",
+    "score": 1.0,
+    "interactions": [
+     "C0004057",
+     "C0008809",
+     "C0000970"
+    ],
+    "n_paths": 3,
+    "path": [
+     "C0836924",
+     "C0771907",
+     "C0040053",
+     "C0031444"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Phenprocoumon",
+    "path_names": [
+     "Thrombocytosis",
+     "Anagrelide hydrochloride",
+     "Thrombosis",
+     "Phenprocoumon"
+    ],
+    "interaction_names": [
+     "Aspirin",
+     "Ciprofloxacin",
+     "Acetaminophen"
+    ]
+   },
+   {
+    "drug": "C0043031",
+    "atc": "B01AA03",
+    "score": 1.0,
+    "interactions": [
+     "C0025872",
+     "C0004057",
+     "C0008809",
+     "C0025942",
+     "C0000970"
+    ],
+    "n_paths": 3,
+    "path": [
+     "C0836924",
+     "C0771907",
+     "C0040053",
+     "C0043031"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Warfarin",
+    "path_names": [
+     "Thrombocytosis",
+     "Anagrelide hydrochloride",
+     "Thrombosis",
+     "Warfarin"
+    ],
+    "interaction_names": [
+     "Metronidazole",
+     "Aspirin",
+     "Ciprofloxacin",
+     "Miconazole",
+     "Acetaminophen"
+    ]
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0243237",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Docusate sodium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C3489575",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Senna",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0061851",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Ondansetron",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 3,
+  "risk": 0.7361,
+  "hypotheses": [
+   {
+    "drug": "C0020268",
+    "atc": "D07XA01",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 5,
+    "path": [
+     "C0036690",
+     "C0001636",
+     "C0004096",
+     "C0020268"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Hydrocortisone",
+    "path_names": [
+     "Septicemia",
+     "Epinephrine hydrochloride",
+     "Asthma",
+     "Hydrocortisone"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0040864",
+    "atc": "A01AC01",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 5,
+    "path": [
+     "C0036690",
+     "C0001636",
+     "C0004096",
+     "C0040864"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Triamcinolone",
+    "path_names": [
+     "Septicemia",
+     "Epinephrine hydrochloride",
+     "Asthma",
+     "Triamcinolone"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0063076",
+    "atc": "D07AB11",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 5,
+    "path": [
+     "C0036690",
+     "C0001636",
+     "C0004096",
+     "C0063076"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Hydrocortisone buteprate",
+    "path_names": [
+     "Septicemia",
+     "Epinephrine hydrochloride",
+     "Asthma",
+     "Hydrocortisone buteprate"
+    ],
+    "interaction_names": []
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0006675",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Calcium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0243237",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Docusate sodium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C3489575",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Senna",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 3,
+  "risk": 0.7332,
+  "hypotheses": [
+   {
+    "drug": "C0022245",
+    "atc": "C01CA02",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 5,
+    "path": [
+     "C0017181",
+     "C0042413",
+     "C0042510",
+     "C0022245"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Isoproterenol",
+    "path_names": [
+     "Gastrointestinal hemorrhage",
+     "Vasopressins",
+     "Ventricular fibrillation",
+     "Isoproterenol"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0010592",
+    "atc": "S01XA18",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 4,
+    "path": [
+     "C0018802",
+     "C0014027",
+     "C0003873",
+     "C0010592"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Cyclosporine",
+    "path_names": [
+     "Congestive heart failure",
+     "Enalaprilat",
+     "Rheumatoid arthritis",
+     "Cyclosporine"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0002598",
+    "atc": "C01BD01",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 3,
+    "path": [
+     "C0004238",
+     "C0026289",
+     "C0003811",
+     "C0002598"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Amiodarone",
+    "path_names": [
+     "Atrial fibrillation",
+     "Sotalol hydrochloride",
+     "Cardiac arrhythmia",
+     "Amiodarone"
+    ],
+    "interaction_names": []
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0032821",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Potassium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0037473",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Sodium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0000970",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Acetaminophen",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ },
+ {
+  "client": 3,
+  "risk": 0.7182,
+  "hypotheses": [
+   {
+    "drug": "C0000981",
+    "atc": "S01EC01",
+    "score": 1.0,
+    "interactions": [
+     "C0004057"
+    ],
+    "n_paths": 5,
+    "path": [
+     "C0020433",
+     "C0282303",
+     "C0014544",
+     "C0000981"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Acetazolamide",
+    "path_names": [
+     "Hyperbilirubinemia",
+     "Phenobarbital sodium",
+     "Epilepsy",
+     "Acetazolamide"
+    ],
+    "interaction_names": [
+     "Aspirin"
+    ]
+   },
+   {
+    "drug": "C0012582",
+    "atc": "B01AC07",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 3,
+    "path": [
+     "C0836924",
+     "C0771907",
+     "C0040053",
+     "C0012582"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Dipyridamole",
+    "path_names": [
+     "Thrombocytosis",
+     "Anagrelide hydrochloride",
+     "Thrombosis",
+     "Dipyridamole"
+    ],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0031406",
+    "atc": "B01AA02",
+    "score": 1.0,
+    "interactions": [],
+    "n_paths": 3,
+    "path": [
+     "C0836924",
+     "C0771907",
+     "C0040053",
+     "C0031406"
+    ],
+    "relations": [
+     "~may_treat",
+     "may_treat",
+     "~may_treat"
+    ],
+    "source": "kg",
+    "drug_name": "Phenindione",
+    "path_names": [
+     "Thrombocytosis",
+     "Anagrelide hydrochloride",
+     "Thrombosis",
+     "Phenindione"
+    ],
+    "interaction_names": []
+   }
+  ],
+  "learned_hypotheses": [
+   {
+    "drug": "C0032821",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Potassium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0037473",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Sodium",
+    "path_names": [],
+    "interaction_names": []
+   },
+   {
+    "drug": "C0000970",
+    "atc": "",
+    "score": 0.0,
+    "interactions": [],
+    "n_paths": 0,
+    "path": [],
+    "relations": [],
+    "source": "popularity",
+    "drug_name": "Acetaminophen",
+    "path_names": [],
+    "interaction_names": []
+   }
+  ]
+ }
+]

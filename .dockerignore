@@ -1,0 +1,14 @@
+*
+!Dockerfile
+!requirements.txt
+!fedrag_sim.py
+!fl_net.py
+!fqp.py
+!textgen.py
+!textnet.py
+!hypo_learn.py
+!measurements.py
+!sparql_ext.py
+!edge_controller.py
+!connection_module.py
+!cache_store.py

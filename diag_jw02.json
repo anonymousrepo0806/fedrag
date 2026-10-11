@@ -1,0 +1,53 @@
+{
+ "rows": [
+  {
+   "clients": 10,
+   "seed": 1,
+   "arm": "fqp",
+   "n_queries": 1494,
+   "reachable": 0.8058902275769746,
+   "latency_ms_per_query": 38.14930147523444,
+   "MRR": 0.13983454587860253,
+   "P@5": 0.11753681392235611,
+   "R@5": 0.00361467824838988,
+   "nDCG@5": 0.040281913130067175,
+   "Cov@5": 0.07534469534575738,
+   "Hit@5": 0.28848728246318606,
+   "P@10": 0.11211512717536815,
+   "R@10": 0.006414383020378505,
+   "nDCG@10": 0.04806324735475626,
+   "Cov@10": 0.10617626563053265,
+   "Hit@10": 0.3815261044176707,
+   "P@20": 0.09605087014725569,
+   "R@20": 0.01018102674024602,
+   "nDCG@20": 0.05388497342193265,
+   "Cov@20": 0.1318780101274475,
+   "Hit@20": 0.44511378848728245,
+   "fqp": {
+    "queries": 1494.0,
+    "resp_bytes_per_query": 158804.20414993307,
+    "wasted_contacts_per_query": 0.014725568942436412,
+    "ms_per_query": 21.45715410929607,
+    "req_bytes_per_query": 2636.789156626506,
+    "requests": 180.0,
+    "completeness_vs_central_kg": 1.0,
+    "sources_contacted_per_query": 9.985943775100402,
+    "total_mb": 230.0194206237793,
+    "secs": 32.056,
+    "decoys_per_subquery": 0.0,
+    "subqueries_per_query": 19.866131191432395,
+    "sources_available": 10.0,
+    "join_subqueries_per_query": 9.916331994645248,
+    "remote_subqueries_per_query": 17.880856760374833,
+    "summary_bytes": 180025.0,
+    "remote_sources_per_query": 8.987282463186078
+   }
+  }
+ ],
+ "resources": {
+  "wall_s": 298.425,
+  "cpu_s": 297.731,
+  "rss_mb": 1432.7,
+  "peak_rss_mb": 2481.2
+ }
+}

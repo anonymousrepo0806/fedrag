@@ -1,0 +1,9 @@
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+Retriever & P@10 & nDCG@10 & Hit@20 & Sources/q & Subq./q & ms/q \\
+\midrule
+Client-side RAG, own KG only & 0.047$\pm$0.004 & 0.024$\pm$0.003 & 0.211$\pm$0.013 & 1.00$\pm$0.00 & 1.0$\pm$0.0 & 3.8$\pm$0.1 \\
+FQP RAG (always federate) & 0.104$\pm$0.011 & 0.044$\pm$0.005 & 0.424$\pm$0.019 & 9.98$\pm$0.02 & 19.8$\pm$0.1 & 39.7$\pm$0.7 \\
+Rule-based adaptive FQP & 0.047$\pm$0.005 & 0.024$\pm$0.003 & 0.210$\pm$0.003 & 1.20$\pm$0.03 & 1.2$\pm$0.0 & 7.2$\pm$0.8 \\
+\bottomrule
+\end{tabular}
